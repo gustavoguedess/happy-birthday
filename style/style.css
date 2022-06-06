@@ -37,79 +37,8 @@ body {
   top: 20vh;
 }
 
-.one {
-  font-size: 4.5rem;
-}
-
-.one > img {
-  vertical-align: middle;
-  margin-bottom: 10px;
-  max-width: 100%;
-  height: auto;
-}
-
-.two {
-  font-size: 1.2rem;
-  font-weight: lighter;
-}
-
-.three {
-  font-size: 3rem;
-}
-
-.four .text-box {
-  width: 600px;
-  margin: 0 auto;
-  border: 3px solid #aaa;
-  border-radius: 5px;
-  padding: 10px;
-  position: relative;
-}
-
-.text-box p {
-  margin: 0;
-  text-align: left;
-}
-
-.text-box span {
-  visibility: hidden;
-}
-
-.text-box .fake-btn {
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  color: #fff;
-  background-color: rgb(21, 161, 237);
-  padding: 5px 8px;
-  border-radius: 3px;
-}
-
-.five p {
-  font-size: 2rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.idea-3 strong {
-  padding: 3px 5px;
-  border-radius: 3px;
-  display: inline-block;
-}
-
-.five .idea-5 {
-  font-size: 4rem;
-}
-
-.idea-5 span,
-.idea-6 span,
 .wish-hbd span {
   display: inline-block;
-}
-
-.idea-6 span {
-  font-size: 15rem;
 }
 
 .six {
@@ -118,15 +47,16 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 45%;
   height: auto;
 }
 
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
-  left: 41.5%;
+  top: -65px;
+  left: 44%;
+  transform: rotate(-10deg);
   /* transform: scale(0.1); */
 }
 
@@ -235,25 +165,29 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 44%;
+    transform: rotate(-10deg);
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 44%;
+    transform: rotate(-10deg);
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 44%;
+    transform: rotate(-10deg);
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 44%;
+    transform: rotate(-10deg);
   }
 }
 
@@ -269,14 +203,6 @@ body {
   .text-box .fake-btn {
     right: 5px;
     bottom: -38px;
-  }
-
-  .idea-5 span {
-    display: block;
-  }
-
-  .idea-6 span {
-    font-size: 10rem;
   }
 
   .six .hat {
